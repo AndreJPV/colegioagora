@@ -22,6 +22,42 @@
             <img src="imagens/logo_escola_teste.jpg" alt="logo da escola">
         </ul>
     </header>
+    <div style="background-color: #69be28; width: auto; height: auto; margin: auto;">
+        <section style="color: #002244; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 10px 0px 0px 50px;">
+            <h2>Matrícula</h2>
+            <p>Preencha o formulário para entrar em contato<p>
+            <form action="obrigado.html" method="get">
+                <label>Nome:</label>
+                <br>
+                <input style="margin-bottom: 10px;" type="text" name="nome" required>
+                <br>
+                <label>Email:</label>
+                <br>
+                <input style="margin-bottom: 10px;" type="email" name="email" required>
+                <br>
+                <label>Assunto:</label>
+                <br>
+                <select style="margin-bottom: 10px;" name="select" id="select" required>
+                    <option value="elogio">Elogio</option>
+                    <option value="sugestao" selected>Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+                <br>
+                <label>Mensagem:</label>
+                <br>
+                <textarea style="margin-bottom: 10px;" name="mensagem" required></textarea>
+                <br>
+                <div style="padding: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 				color: white;">
+                    <input type="checkbox" name="termo" id="termo" required>
+                    <label>Concordo com os Termos de Privacidade do Site.</label><br>
+                </div>
+                <div style="padding-bottom: 20px;">
+                    <input type="submit" value="Enviar mensagem">
+                    <input type="reset" value="Apagar">
+                </div>
+            </form>
+        </section>
+    </div> 
     <footer>
         <div class="ul-menu">
                 <ul>
