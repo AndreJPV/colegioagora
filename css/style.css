@@ -28,12 +28,12 @@ a:link {
     text-decoration: none;
   }
   a:visited {
-    color: rgb(173, 173, 173);
+    color: rgb(255, 254, 254);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: rgb(180, 180, 180);
     background-color: transparent;
     text-decoration: underline;
   }
