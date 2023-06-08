@@ -22,12 +22,12 @@
             <img src="imagens/logo_escola_teste.jpg" alt="logo da escola">
         </ul>
     </header>
-    <div style="background-color: #69be28; width: auto; height: auto; margin: auto;">
-        <section style="color: #002244; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 10px 0px 0px 50px;">
+    <div class="form" style="background-color: #69be28; max-width: 1000px; height: auto; margin: auto;">
+        <section>
             <h2>Matrícula</h2>
-            <p>Preencha o formulário para entrar em contato<p>
+            <p>Informe seus dados que entraremos em contato<p>
             <form action="obrigado.html" method="get">
-                <label>Nome:</label>
+                <label>Nome do responsável:</label>
                 <br>
                 <input style="margin-bottom: 10px;" type="text" name="nome" required>
                 <br>
@@ -35,25 +35,36 @@
                 <br>
                 <input style="margin-bottom: 10px;" type="email" name="email" required>
                 <br>
-                <label>Assunto:</label>
+                <label>Nome do aluno</label>
+                <br>
+                <input style="margin-bottom: 10px;" type="text" name="nome_aluno" required>
+                <br>
+                <label>Série do aluno:</label>
                 <br>
                 <select style="margin-bottom: 10px;" name="select" id="select" required>
-                    <option value="elogio">Elogio</option>
-                    <option value="sugestao" selected>Sugestão</option>
-                    <option value="reclamacao">Reclamação</option>
+                    <option value="1ºano - Fundamental I">1º ano - Fundamental I</option>
+                    <option value="2ºano - Fundamental I">2º ano - Fundamental I</option>
+                    <option value="3ºano - Fundamental I">3º ano - Fundamental I</option>
+                    <option value="4ºano - Fundamental I">4º ano - Fundamental I</option>
+                    <option value="5ºano - Fundamental I">5º ano - Fundamental I</option>
+                    <option value="6ºano - Fundamental II">6º ano - Fundamental II</option>
+                    <option value="7ºano - Fundamental II">7º ano - Fundamental II</option>
+                    <option value="8ºano - Fundamental II">8º ano - Fundamental II</option>
+                    <option value="9ºano - Fundamental II">9º ano - Fundamental II</option>
+                    <option value="1ºano - Ensino Médio">1º ano - Ensino Médio</option>
+                    <option value="2ºano - Ensino Médio">2º ano - Ensino Médio</option>
+                    <option value="3ºano - Ensino Médio">3º ano - Ensino Médio</option>
                 </select>
                 <br>
-                <label>Mensagem:</label>
+                <label>Telefone para contato</label>
                 <br>
-                <textarea style="margin-bottom: 10px;" name="mensagem" required></textarea>
-                <br>
-                <div style="padding: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 				color: white;">
+                <input style="margin-bottom: 10px;" type="tel" name="telefone" required>
+                <div style="padding: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white;">
                     <input type="checkbox" name="termo" id="termo" required>
                     <label>Concordo com os Termos de Privacidade do Site.</label><br>
                 </div>
                 <div style="padding-bottom: 20px;">
-                    <input type="submit" value="Enviar mensagem">
-                    <input type="reset" value="Apagar">
+                    <input type="submit" value="Enviar formulário">
                 </div>
             </form>
         </section>
