@@ -97,6 +97,14 @@ a:link {
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
   }
 
+  .obrigado{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+
   footer {
       background-color: #333;
       color: #fff;
