@@ -16,7 +16,7 @@ li {
 .ul-menu {
     display: flex;
     list-style: none;
-    background-color: #ee0505;
+    background-color: #000000;
     justify-content:left;
     padding: 10px; 
     
@@ -28,12 +28,12 @@ a:link {
     text-decoration: none;
   }
   a:visited {
-    color: rgb(173, 173, 173);
+    color: rgb(255, 254, 254);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: red;
+    color: rgb(180, 180, 180);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -102,6 +102,14 @@ a:link {
     font-weight: bold; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     padding: 10px 0px 0px 50px;
+  }
+
+  .obrigado{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
   }
 
   footer {
