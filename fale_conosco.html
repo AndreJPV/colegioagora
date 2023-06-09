@@ -31,36 +31,39 @@
         <section>
             <h2>Fale Conosco</h2>
             <form method='get' action='obrigado.html'>
-                <label>Nome: </label>
-                <input type="text" name="nome" required>
+                <label>Nome:</label>
                 <br>
+                <input class="input_form" type="text" name="nome" placeholder="Nome" required>
                 <br>
-                <label>Email: </label>
-                <input type="email" name="email" required>
+                <label>Telefone:</label>
                 <br>
+                <input class="input_form" type="tel" name="telefone" placeholder="(00)9000-0000" required>
                 <br>
-                <label>Telefone: </label>
-                <input type="text" name="telefone" required>
+                <label>Email:</label>
                 <br>
+                <input class="input_form" type="email" name="email" placeholder="Digite seu melhor email" required>
                 <br>
+
                 <label>Assunto:</label>
-                <select name="select" required>
-                    <option value="selecione" required>Selecione</option>
-                    <option value="sugestao" required>Sugestão</option>
-                    <option value="reclamacao" required>Reclamação</option>
-                    <option value="elogio" required>Elogio</option>
-                    <option value="dúvida" required>Dúvida</option>
-                </select>
                 <br>
+                <select class="input_form" name="select" id="select" required>
+                    <option selected>Selecione</option>
+                    <option value="Elogio">
+                    <option value="Sugestão">
+                    <option value="Reclamação">
+                    <option value="Dúvida">
+                </select>
                 <br>
                 <label for="">Mensagem</label>
                 <textarea name="mensagem" required></textarea>
                 <br>
-                <br>
-                <input type="checkbox" name="termo" id="termo">
-                <label style="font-size: 0.8em;">Marque para enviar mensagem</label><br>
-                <br>
-                <br>
+                <div
+                    style="padding: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white;">
+                    <input type="checkbox" name="termo" id="termo">
+                    <label style="font-size: 0.8em;">Marque para enviar mensagem</label><br>
+                    <br>
+                    <br>
+                </div>
                 <div>
                     <input class="button_form" type="submit" value="Enviar">
                 </div>
