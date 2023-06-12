@@ -28,9 +28,9 @@ li {
 .ul-menu-footer {
   display: flex;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #c5c5c5;
   justify-content:center;
-  margin: 10px;
+  padding-top: 10px;
 
 }
 
