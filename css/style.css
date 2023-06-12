@@ -25,9 +25,28 @@ li {
    
 }
 
+.ul-menu-footer {
+  display: flex;
+  list-style: none;
+  background-color: #ffffff;
+  justify-content:center;
+  margin: 10px;
+
+}
+
 .noticiasdiv{
 
+  box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: left;
+}
+
+.carrossel {
+  max-width: 100%; 
+  margin: auto;
 }
 
 .noticias {
@@ -171,6 +190,13 @@ a:link {
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+
+  .destaquediv {
+
+    display: flex; 
+    background-color: brown;
+
   }
 
   .obrigado{
