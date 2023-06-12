@@ -19,24 +19,24 @@ li {
 .ul-menu {
     display: flex;
     list-style: none;
-    background-color: #000000;
+    background-color: #ffffff;
     justify-content:left;
-    padding: 10px; 
+    
     
 }
 
 a:link {
-    color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: rgb(255, 254, 254);
+    color: rgb(109, 108, 108);
     background-color: transparent;
     text-decoration: none;
   }
   a:hover {
-    color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: underline;
   }
