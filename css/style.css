@@ -58,8 +58,8 @@ dt {
 
   box-sizing: border-box;
   display: flex;
-  flex-wrap:wrap;
-  font-size: 20px;
+  flex-wrap:wrap; 
+  font-size: 10px;
   text-align: left;
   justify-content:space-around;
 
@@ -69,7 +69,7 @@ dt {
   
   display: flex;
   flex-wrap:wrap;
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
   border-style: outset;
   background-color: rgb(3, 154, 214);
@@ -176,7 +176,7 @@ a:link {
     border-radius: 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
     display: flex;
-    background-color: color: rgb(3, 154, 214);
+    background-color: rgb(3, 154, 214);
   }
   
   .form{
@@ -187,7 +187,7 @@ a:link {
     padding: 10px;
     width: 50%; 
     height: 550px; 
-    background-color: color: rgb(3, 154, 214); 
+    background-color: rgb(3, 154, 214); 
     margin: auto; 
     border-radius: 10px; 
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
@@ -258,7 +258,7 @@ a:link {
   background-color: rgb(255, 255, 255); 
   margin: auto; width: 750; 
   text-align: justify; 
-  padding: 10px;"
+  padding: 10px;
 
   }
 
