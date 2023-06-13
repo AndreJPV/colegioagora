@@ -10,15 +10,15 @@ body {
     margin: 0;
 }
 
-li {
+dt {
     flex-grow: 1;
     margin: 10px;
     
 }
 
 .ul-menu {
-    display: flex;
-
+  display: flex;
+ 
     
 
    
@@ -81,7 +81,7 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(3, 164, 228);
     background-color: transparent;
     text-decoration: underline;
   }
