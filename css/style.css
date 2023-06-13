@@ -19,9 +19,8 @@ li {
 .ul-menu {
     display: flex;
     list-style: none;
-    background-color: #ffffff;
     justify-content:left;
-    margin: 10px;
+
    
 }
 
@@ -137,6 +136,8 @@ a:link {
     padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    background-color: rgb(243, 243, 243);
   }
   
   .form{
@@ -196,6 +197,28 @@ a:link {
 
     display: flex; 
     background-color: rgb(74, 163, 247);
+
+  }
+
+  .section_equipe {
+   max-width: 1000px; 
+   margin: auto; 
+   background-color: rgb(192, 191, 191); 
+   text-align: center;
+
+  }
+
+  .equipe1 {
+  display: flex; 
+  background-color: rgb(255, 255, 255);
+
+  }
+  .equipe2 {
+  display: flex; 
+  background-color: rgb(255, 255, 255); 
+  margin: auto; width: 750; 
+  text-align: justify; 
+  padding: 10px;"
 
   }
 
