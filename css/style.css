@@ -1,4 +1,7 @@
-:root
+:root{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 
 
 img{
@@ -6,8 +9,10 @@ img{
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 dt {
@@ -18,22 +23,33 @@ dt {
 
 .ul-menu {
   display: flex;
- 
-    
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-   
+.ensino {
+  
+  }
+
+
 }
+ 
+.quemsomos {
+
+}
+   
 
 .ul-menu-footer {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
   list-style: none;
   justify-content:center;
-  padding-top: 20px;
+  padding-top: 10px;
   color: #000000;
   text-align: center;
   background-color: #e2e2e2;
   padding: 20px;
+  
 
 
 }
@@ -42,10 +58,24 @@ dt {
 
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   font-size: 20px;
   text-align: left;
+  justify-content:space-around;
+
+ 
+}
+.noticiasdiv{
+  
+  display: flex;
+  flex-wrap:wrap;
+  font-size: 20px;
+  text-align: left;
+  border-style: outset;
+  background-color: rgb(3, 154, 214);
+  border-style: dotted solid;
+
+
  
 }
 
@@ -62,6 +92,8 @@ dt {
   border: 3px solid black; 
   border-radius: 5px; 
   height: 315px;
+
+ 
 }
 
 .ul_noticias
@@ -203,7 +235,8 @@ a:link {
   .destaquediv {
 
     display: flex; 
-    background-color: color: rgb(3, 154, 214);
+    background-color: color(a98-rgb red green blue);
+
 
   }
 
@@ -241,6 +274,7 @@ a:link {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
+
   }
 
   .direitos {
