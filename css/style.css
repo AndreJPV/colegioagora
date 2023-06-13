@@ -68,15 +68,12 @@ dt {
 .noticiasdiv{
   
   display: flex;
-  flex-wrap:wrap;
   font-size: 15px;
-  text-align: left;
-  border-style: outset;
-  background-color: rgb(3, 154, 214);
-  border-style: dotted solid;
-
-
- 
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  background-color: #e2e2e2;
+  border-style: solid;
 }
 
 
@@ -93,7 +90,6 @@ dt {
   border-radius: 5px; 
   height: 315px;
 
- 
 }
 
 .ul_noticias
