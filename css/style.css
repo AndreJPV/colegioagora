@@ -81,7 +81,7 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: rgb(3, 164, 228);
+    color: rgb(3, 154, 214);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -143,18 +143,18 @@ a:link {
     border-radius: 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
     display: flex;
-    background-color: rgb(0, 162, 255);
+    background-color: color: rgb(3, 154, 214);
   }
   
   .form{
-    background-color: aqua;
+    background-color: rgb(3, 154, 214);
     color: #000000; 
     font-weight: bold; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     padding: 10px;
     width: 50%; 
     height: 550px; 
-    background-color: rgb(127, 178, 255); 
+    background-color: color: rgb(3, 154, 214); 
     margin: auto; 
     border-radius: 10px; 
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.5);
@@ -202,7 +202,7 @@ a:link {
   .destaquediv {
 
     display: flex; 
-    background-color: rgb(4, 142, 255);
+    background-color: color: rgb(3, 154, 214);
 
   }
 
