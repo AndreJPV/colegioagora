@@ -26,6 +26,8 @@ li {
   margin-bottom: 10px;
   font-weight: bold;
   list-style-type: none;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(143, 143, 141));
+
 
 .ensino {
   
