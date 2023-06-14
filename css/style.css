@@ -278,3 +278,26 @@ a:link {
     text-align: center;
     font-family: "Trirong", serif;
   }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+  }
+  
+  .h1_noticia {
+    text-align: center;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .image-gallery img {
+    max-width: 100%;
+    height: auto;
+  }
