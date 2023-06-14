@@ -82,15 +82,6 @@ li {
   list-style-type: none;
 }
 
-.noticiasgeraldiv{
-
-  box-sizing: border-box;
-  display: flex; 
-  font-size: 10px;
-  text-align: left;
-  justify-content:space-around;
- 
-}
 .noticiasdiv{
   
   display: flex;
