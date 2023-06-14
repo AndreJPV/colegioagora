@@ -244,6 +244,7 @@ a:link {
   }
 
   .section_equipe {
+    background-image: url();
    max-width: 1000px; 
    margin: auto; 
    background-color: gray; 
