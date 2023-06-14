@@ -147,12 +147,7 @@ a:link {
       padding: 5px;
   }
 
-  section 
-  {
-      padding: 20px;
-      margin-bottom: 20px;
-  }
-
+  
   h2 
   {
       color: #000;
@@ -242,6 +237,7 @@ a:link {
 
   .destaquediv {
     display: flex; 
+    padding-bottom: 10px;
   }
 
   .section_equipe {
