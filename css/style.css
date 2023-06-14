@@ -57,8 +57,7 @@ dt {
 .noticiasgeraldiv{
 
   box-sizing: border-box;
-  display: flex;
-  flex-wrap:wrap; 
+  display: flex; 
   font-size: 10px;
   text-align: left;
   justify-content:space-around;
