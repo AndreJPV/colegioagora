@@ -54,9 +54,6 @@ li {
   text-align: justify;
 }
  
-.quemsomos {
-
-}
 
 .ul-menu-footer {
   display: flex;
@@ -183,6 +180,7 @@ a:link {
 
   .pag_equipe_pad_bottom{
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
     display: flex;
