@@ -9,7 +9,6 @@ img{
 
 body {
     font-size: 16px;
-    margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -49,10 +48,10 @@ li {
   list-style: none;
   justify-content:center;
   padding-top: 10px;
+  padding-left: 10px;
   color: #000000;
   text-align: center;
   background-image: linear-gradient(rgb(143, 143, 141), rgb(255, 255, 255));
-  padding-top: 10px;
 
 }
 
