@@ -3,7 +3,6 @@
 
 }
 
-
 img{
     width: 150px;
 }
@@ -38,7 +37,6 @@ li {
 .quemsomos {
 
 }
-   
 
 .ul-menu-footer {
   display: flex;
@@ -64,7 +62,6 @@ li {
   font-size: 10px;
   text-align: left;
   justify-content:space-around;
-
  
 }
 .noticiasdiv{
@@ -77,7 +74,6 @@ li {
   background-color: #e2e2e2;
   border-style: solid;
 }
-
 
 .carrossel {
   max-width: 100%; 
@@ -121,6 +117,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+
   body 
   {
       font-family: Arial, sans-serif;
