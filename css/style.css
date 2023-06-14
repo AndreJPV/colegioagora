@@ -25,6 +25,7 @@ li {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: bold;
 
 .ensino {
   
@@ -167,11 +168,20 @@ a:link {
 
   .pag_equipe_pad_bottom{
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    background-color: #ccc;
+  }
+
+  .pag_equipe{
+    margin-bottom: 20px;
     padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5);
     display: flex;
-    background-color: rgb(3, 154, 214);
+    background-color: white;
   }
   
   .form{
@@ -228,30 +238,27 @@ a:link {
   }
 
   .destaquediv {
-
     display: flex; 
-    background-color: color(a98-rgb red green blue);
-
-
   }
 
   .section_equipe {
    max-width: 1000px; 
    margin: auto; 
-   background-color: rgb(255, 255, 255); 
+   background-color: gray; 
    text-align: center;
 
   }
 
   .equipe1 {
   display: flex; 
-  background-color: rgb(255, 255, 255);
-
+  background-color: green;
   }
+
   .equipe2 {
   display: flex; 
-  background-color: rgb(255, 255, 255); 
-  margin: auto; width: 750; 
+  background-color: red; 
+  margin: auto; 
+  width: 750; 
   text-align: justify; 
   padding: 10px;
 
